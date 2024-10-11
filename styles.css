@@ -34,48 +34,13 @@ html {
 	&:hover {
 		background-color: $hover-color;
 	}
-	&.bounce:hover {
-		animation: bounce 0.5s;
-	}
-	&.slide:hover {
-		transform: translateX(10px);
-	}
-	&.rotate:hover {
-		transform: rotate(360deg);
-	}
 	&.pulse:hover {
 		animation: pulse 1s infinite;
 	}
-	&.flip:hover {
-		transform: perspective(600px) rotateY(180deg);
-	}
-	&.grow:hover {
-		transform: scale(1.1);
-	}
-	&.shrink:hover {
-		transform: scale(0.9);
-	}
-	&.wiggle:hover {
-		animation: wiggle 0.5s;
-	}
-	&.shadow:hover {
-		box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-	}
-	&.glow:hover {
-		text-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 20px #3498db,
-			0 0 22px #3498db;
-	}
+	
 }
 
-@keyframes bounce {
-	0%,
-	100% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(-10px);
-	}
-}
+
 
 @keyframes pulse {
 	0%,
