@@ -4,6 +4,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM1() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
+      autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -18,6 +19,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM2() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd",
+       autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -32,6 +34,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM3() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd",
+            autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -46,6 +49,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM4() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd",
+            autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -60,6 +64,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM5() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
+            autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -74,6 +79,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM6() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+            autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -88,6 +94,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM7() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
+            autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
