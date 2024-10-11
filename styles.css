@@ -28,7 +28,7 @@ html {
 	border: none;
 	padding: 10px 20px;
 	cursor: pointer;
-	font-size: 2px;
+	font-size: 10px;
 	border-radius: 20px;
 	transition: all 0.3s;
 	&:hover {
