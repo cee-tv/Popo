@@ -1,0 +1,112 @@
+html {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background: $background-image no-repeat center center / cover fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 40px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	max-width: 1000px;
+	box-sizing: border-box;
+}
+
+.btn {
+	background-color: #020617;
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 20px;
+	transition: all 0.3s;
+	&:hover {
+		background-color: $hover-color;
+	}
+	&.bounce:hover {
+		animation: bounce 0.5s;
+	}
+	&.slide:hover {
+		transform: translateX(10px);
+	}
+	&.rotate:hover {
+		transform: rotate(360deg);
+	}
+	&.pulse:hover {
+		animation: pulse 1s infinite;
+	}
+	&.flip:hover {
+		transform: perspective(600px) rotateY(180deg);
+	}
+	&.grow:hover {
+		transform: scale(1.1);
+	}
+	&.shrink:hover {
+		transform: scale(0.9);
+	}
+	&.wiggle:hover {
+		animation: wiggle 0.5s;
+	}
+	&.shadow:hover {
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	}
+	&.glow:hover {
+		text-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 20px #3498db,
+			0 0 22px #3498db;
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+@keyframes pulse {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+}
+
+@keyframes wiggle {
+	0%,
+	100% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-5deg);
+	}
+	75% {
+		transform: rotate(5deg);
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
