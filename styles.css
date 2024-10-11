@@ -26,9 +26,9 @@ html {
 	background-color: #020617;
 	color: white;
 	border: none;
-	padding: 15px 30px;
+	padding: 5px 10px;
 	cursor: pointer;
-	font-size: 10px;
+	font-size: 5px;
 	border-radius: 20px;
 	transition: all 0.3s;
 	&:hover {
