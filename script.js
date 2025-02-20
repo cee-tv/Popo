@@ -32,7 +32,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   // Function to switch to DRM 2
   function switchToDRM2() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_a2z.mpd",
        autostart: true,
       type: "dash",
       drm: {
@@ -47,7 +47,7 @@ var playerInstance = jwplayer("jwplayerDiv");
  // Function to switch to DRM 3
   function switchToDRM3() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/oneph_sd.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -62,7 +62,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 4
   function switchToDRM4() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd",
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/onenews_hd1.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -77,7 +77,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 5
   function switchToDRM5() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/ibc13_sd.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -92,7 +92,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 6
   function switchToDRM6() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -107,7 +107,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 7
   function switchToDRM7() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
+      file: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -122,7 +122,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 8
   function switchToDRM8() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_mptv.mpd",
             autostart: true,
       type: "dash",
       drm: {
@@ -137,7 +137,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 9
   function switchToDRM9() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/tvmaria_prd.mpd",
+      file: "https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/tvmaria_prd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -151,7 +151,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 10
   function switchToDRM10() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/truefm_tv.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -166,7 +166,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 11
   function switchToDRM11() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/bilyonaryoch.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/bilyonaryoch.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -181,7 +181,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 12
   function switchToDRM12() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_tvup_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -196,7 +196,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 13
   function switchToDRM13() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_depedch_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -227,7 +227,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 15
   function switchToDRM15() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/viva_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -243,7 +243,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 16
   function switchToDRM16() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/pbo_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -260,7 +260,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 17
   function switchToDRM17() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
+      file: "https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -275,7 +275,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 18
   function switchToDRM18() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd",
+      file: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_buko_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -290,7 +290,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 19
   function switchToDRM19() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd",
+      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_tagalogmovie.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -320,7 +320,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 21
   function switchToDRM21() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd",
+      file: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_dreamworktag.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -336,7 +336,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 22
   function switchToDRM22() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd",
+      file: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -352,7 +352,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 23
   function switchToDRM23() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd",
+      file: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -414,7 +414,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 27
   function switchToDRM27() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animax_sd.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_animax_sd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -430,7 +430,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 28
   function switchToDRM28() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd",
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_hitsnow.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -446,7 +446,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 29
   function switchToDRM29() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/cg_hbohd.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -461,7 +461,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 30
   function switchToDRM30() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbofam.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -477,7 +477,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 31
   function switchToDRM31() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbosign.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -493,7 +493,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 32
   function switchToDRM32() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohits.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -508,7 +508,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 33
   function switchToDRM33() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/hits_hd1.mpd",
       autostart: true,
       type: "dash",
       drm: {
@@ -529,7 +529,7 @@ var playerInstance = jwplayer("jwplayerDiv");
       drm: {
         "clearkey": {
           "keyId": "0f856762412b11edb8780242ac120002",
-          "key": "7199bc900b9e23087d3a2c0c6d4edce4"
+          "key": "4cbc004d8c444f9f996db42059ce8178"
         }
       }
     });
@@ -538,7 +538,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 35
   function switchToDRM35() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd", autostart: true,
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_thrill_sd.mpd", autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -552,7 +552,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 36
   function switchToDRM36() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -566,7 +566,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 37
   function switchToDRM37() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_axn_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -580,7 +580,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 38
   function switchToDRM38() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_cinemax.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -608,7 +608,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 40
   function switchToDRM40() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_kix_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -636,7 +636,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 42
   function switchToDRM42() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/cg_tvnmovie.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -650,7 +650,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 43
   function switchToDRM43() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/cg_tvnpre.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -720,7 +720,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 48
   function switchToDRM48() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -748,7 +748,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 50
   function switchToDRM50() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -762,7 +762,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 51
   function switchToDRM51() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesports_hd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -776,7 +776,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 52
   function switchToDRM52() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -790,7 +790,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 53
   function switchToDRM53() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -888,7 +888,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 60
   function switchToDRM60() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -902,7 +902,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 61
   function switchToDRM61() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -958,7 +958,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 65
   function switchToDRM65() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/travel_channel_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -972,7 +972,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 66
   function switchToDRM66() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -986,7 +986,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 67
   function switchToDRM67() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_taptv_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -1042,7 +1042,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 71
   function switchToDRM71() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/bloomberg_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -1056,7 +1056,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 72
   function switchToDRM72() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/dr_nhk_japan.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -1084,7 +1084,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 74
   function switchToDRM74() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -1098,7 +1098,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 75
   function switchToDRM75() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_aljazeera.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/dr_aljazeera.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
@@ -1154,7 +1154,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 80
   function switchToDRM79() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd",autostart: true,
+      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/arirang_sd.mpd",autostart: true,
       type: "dash",
       drm: {
         "clearkey": {
