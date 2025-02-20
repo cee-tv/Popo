@@ -1166,7 +1166,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   }
 
 // Function to switch to DRM 80
-  function switchToDRM79() {
+  function switchToDRM80() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/arirang_sd.mpd",autostart: true,
       type: "dash",
