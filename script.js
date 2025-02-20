@@ -15,7 +15,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 81
-  function switchToDRM1() {
+  function switchToDRM81() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/tv5_hd.mpd",
       autostart: true,
@@ -29,7 +29,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 79
-  function switchToDRM1() {
+  function switchToDRM79() {
     playerInstance.setup({
       file: "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd",
       autostart: true,
