@@ -14,6 +14,20 @@ var playerInstance = jwplayer("jwplayerDiv");
       }
     });
   }
+// Function to switch to DRM 81
+  function switchToDRM1() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/tv5_hd.mpd",
+      autostart: true,
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "2615129ef2c846a9bbd43a641c7303ef",
+          "key": "07c7f996b1734ea288641a68e1cfdc4d"
+        }
+      }
+    });
+  }
 // Function to switch to DRM 79
   function switchToDRM1() {
     playerInstance.setup({
