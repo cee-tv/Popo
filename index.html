@@ -183,16 +183,7 @@
 					jQuery('html, body').animate({scrollTop: 0}, duration);
 					return false;
 				})
-			});
-			
-    // Rewarded interstitial
-        
-show_8574241().then(() => {
-    // You need to add your user reward function here, which will be executed after the user watches the ad.
-    // For more details, please refer to the detailed instructions.
-    alert('You have seen an ad!');
-})
-
+			});		
         
 		</script>
   </head>
@@ -203,6 +194,39 @@ show_8574241().then(() => {
 			</svg>
 		</div>
     </div>
+  <p> Add Ad script down here</p>
+
+<!--Button to trigger the ad -->
+
+<button onclick="showAd()">Watch Ad</button>
+
+<!--Monetag Reward Interstitial Ad Code-->
+
+<script>
+        
+show_8574241().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen an ad!');
+})
+function showAd() {
+show_8950986().then(() => {
+// Reward the user after they watch the ad
+alert('You have seen an ad!');
+rewardUser(); // Call your reward function here
+}).catch((error) => {
+console.error('Ad failed to load:', error);
+});
+})
+	}        
+function rewardUser() {
+// Add your reward logic here
+// For example, give the user in-app currency, unlock features, etc.
+alert('You have been rewarded!');
+}
+</script> 
+
+        
  </body>
 </html>
 </html>
