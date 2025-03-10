@@ -14,7 +14,8 @@
 <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
 <script type='text/javascript' src='https://content.jwplatform.com/libraries/IDzF9Zmk.js'></script>
 <script type="text/javascript">jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';</script>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <script src="jwplayer.js"></script>
 <body>
@@ -185,7 +186,13 @@
 				})
 			});		
         
-		</script>
+		
+	
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js")
+      .then(() => console.log("Service Worker Registered"));
+  }
+</script>
   </head>
   <body>
 		<div class="progress-wrap">
